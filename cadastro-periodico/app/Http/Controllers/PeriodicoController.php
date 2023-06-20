@@ -34,4 +34,14 @@ class PeriodicoController extends Controller
 
         return redirect('/'); // Redirecionar para a página desejada após o cadastro do periódico
     }
+
+    public function show($codigo) {
+    $periodico = Periodico::where('codigo', $codigo)->first();
+
+    if (!$periodico) {
+        abort(404);
+    }
+
+    return view('events.show', compact('periodico'));
+}
 }

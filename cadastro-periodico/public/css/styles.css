@@ -129,6 +129,10 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
+
+  #image-container {
+    background-image: url("../img/logo.png");
+  }
   
   .card .card-date {
     font-size: 12px;

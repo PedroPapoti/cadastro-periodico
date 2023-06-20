@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PeriodicoController::class, 'index']);
 Route::get('/events/create', [PeriodicoController::class, 'create']);
+Route::get('/events/{codigo}', [PeriodicoController::class, 'show']);
 Route::post('/periodicos', [PeriodicoController::class, 'store']);
 
 Route::get('/contact', function () {

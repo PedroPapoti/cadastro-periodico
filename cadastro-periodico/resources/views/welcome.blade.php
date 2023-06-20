@@ -25,10 +25,9 @@
         <div class="card col-md-3">
             <img src="../../public/img/logo.png" alt="{{ $periodico->title }}">
             <div class="card-body">
-                <p class="card-date">10/09/2020</p>
                 <h5 class="card-title">{{ $periodico->editora }}</h5>
                 <p class="card-participants">Revista publicada</p>
-                <a href="#" class="btn btn-primary">Saber mais</a>
+                <a href="./events/{{$periodico->codigo}}" class="btn btn-primary">Saber mais</a>
             </div>
         </div>
         @endforeach

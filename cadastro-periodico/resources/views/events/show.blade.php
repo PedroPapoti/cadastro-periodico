@@ -15,7 +15,8 @@
       </div>
       <div class="col-md-12" id="description-container">
         <h3>Sobre o Periodico:</h3>
-        <p class="event-description">{{ $periodico->description }}</p>
+        <p class="periodico-nome"><ion-icon name="location-outline">Nome:</ion-icon> {{ $periodico->nome}}</p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eveniet cupiditate dolor, cum ut ex libero, laborum architecto, excepturi molestiae similique deserunt ipsa soluta odio doloribus numquam incidunt veniam. Tenetur.</p>
       </div>
     </div>
   </div>
